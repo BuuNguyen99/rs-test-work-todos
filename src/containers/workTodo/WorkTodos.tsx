@@ -86,7 +86,6 @@ export const WorkTodos = () => {
         firstItem.text.localeCompare(secondItem.text)
       );
       setTodos([...todos]);
-      setDataTodos([...todos]);
     }
     if (sortBy === 'ZtoA') {
       todos
@@ -95,7 +94,6 @@ export const WorkTodos = () => {
         )
         .reverse();
       setTodos([...todos]);
-      setDataTodos([...todos]);
     }
     if (sortBy === 'status') {
       todos.sort((firstItem, secondItem) => {
@@ -106,7 +104,6 @@ export const WorkTodos = () => {
           : 1;
       });
       setTodos([...todos]);
-      setDataTodos([...todos]);
     }
   };
 
