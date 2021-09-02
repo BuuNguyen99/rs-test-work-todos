@@ -1,2 +1,29 @@
-# rs-test-work-todos
-build a todo website with functions like add todo, search, sort by (Ascending, Descending and Complete), edit and delete todo.
+## Description
+
+Build a Work todo website Using ReactJs and Typescript.
+
+## Function
+
+-Create work.
+-Search by title.
+-Sort By(Ascending, Descending and Complete).
+-Update work title
+-Delete work
+
+## Installation
+
+```bash
+$ yarn install
+```
+
+## Running the app
+
+```bash
+#build
+$ yarn build
+```
+
+```bash
+#start
+$ yarn start
+```
